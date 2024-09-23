@@ -8,4 +8,4 @@ temp = pd.DataFrame({(1, 2), (3, 5)}, columns = ['test1', 'test2'])
 
 st.dataframe(temp)
 
-temp.to_csv('./temp.csv')
+temp.to_csv('/temp.csv')
